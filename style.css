@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    
+}
+.toolbox-cont{
+    height: 5rem;
+    background-color: #2155CD;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width:99vw;
+    top: 0px;
+    border-radius: 12px;
+    text-align: center;
+    
+
+}
+
+
+
+#box-container{
+   /* position: relative; */
+    height: 350px;
+    width: 600px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    
+}
+
+
+#canvas{
+    z-index: 3;
+    
+    
+}
+#canvas2{
+    position: absolute;
+    top: 5px;
+    margin-top: 178px;
+    left: px;
+    z-index: 3;
+    display: flex;
+    flex-direction:column;
+
+    justify-content: space-between;
+   
+}
+#canvas3{
+    position: absolute;
+    top: px;
+    left: px;
+    z-index: 3;
+    display: flex;
+    flex-direction:column;
+    margin-top: 5px;
+        
+    
+ }
+ #canvas4{
+   
+   position: absolute;
+    left: px;
+    z-index: 3px;
+    display: flex;
+    margin-top: 80px;
+ }
+
+ #myCanvas1{
+
+    display: inline-block;
+    height: 65px;
+    margin:0 0 0 0 130px;
+    vertical-align:35px;
+    width: 75px;
+    position:relative;
+    margin-top: 1px;
+    top: -100px;
+    display: flex;
+    left: 480px;
+
+ }
+ #myCanvas2{
+
+    display: inline-block;
+
+    height: 65px;
+    margin: 0 0 0 130px;
+    vertical-align:35px;
+    width: 75px;
+    position:relative;
+    top:-100px; 
+    display: flex;
+    justify-content: space-between;
+    left: 350px;
+
+    
+ }
+
+ .bubble{
+    cursor: pointer;
+    
+ }
+
+ #myCanvas3{
+
+    display: inline-block;
+    height: 65px;
+    margin: 0 0 0 130px;
+    vertical-align:35px;
+    width: 75px;
+    position:relative;
+    top:-80px; 
+    display: flex;
+    justify-content: space-between;
+    left: 350px;
+
+    
+ }
+
+ #myCanvas4{
+
+    display: inline-block;
+
+    height: 65px;
+    margin: 0 0 0 130px;
+    vertical-align:35px;
+    width: 75px;
+    position:relative;
+    top:-70px; 
+    display: flex;
+    justify-content: space-between;
+    left: 350px;
+
+    
+ }
+
+ button {
+    position: relative;
+   
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 15px;
+    color: red;
+    left: 215px;
+    display: inline-block;
+    justify-content: space-between;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    top: -15px;
+
+  }
+
+
+
+
+
+
+ 
+ 
